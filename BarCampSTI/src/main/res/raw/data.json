@@ -1,0 +1,53 @@
+{
+	"response": {
+		"schedules": [
+			{
+				"Schedule": {
+					"id": 1,
+					"name": "Nombre del Evento 1",
+					"description": "Descripcion del Evento",
+					"date": "18-10-2013 09:00",
+					"place": "PUCMM",
+					"speaker_id": 1
+				}
+			}, {
+				"Schedule": {
+					"id": 2,
+					"name": "Nombre del Evento 2",
+					"description": "Descripcion del Evento",
+					"date": "18-10-2013 09:00",
+					"place": "PUCMM",
+					"speaker_id": 2
+				}
+			}, {
+				"Schedule": {
+					"id": 3,
+					"name": "Nombre del Evento 3",
+					"description": "Descripcion del Evento",
+					"date": "18-10-2013 09:00",
+					"place": "PUCMM",
+					"speaker_id": 1
+				}
+			}
+		],
+		"speakers": [
+			{
+				"Speaker": {
+					"id": 1,
+					"first_name": "Juan",
+					"last_name": "Perez",
+					"description": "Descripción del Autor",
+					"twitter": "@juanperez"
+				}
+			}, {
+				"Speaker": {
+					"id": 2,
+					"first_name": "Jose",
+					"last_name": "Perez",
+					"description": "Descripción del Autor",
+					"twitter": "@juanperez"
+				}
+			}
+		]
+	}
+}

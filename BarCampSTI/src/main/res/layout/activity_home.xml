@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:weightSum="4"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <android.support.v4.view.PagerTitleStrip
+            android:id="@+id/pager_title_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#333333"
+            android:textColor="#ffffff"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp" />
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/dark_color">
+
+        <TextView
+            android:text="@string/copyright"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8dp"
+            android:textColor="@color/light_color"
+            android:layout_gravity="center"
+            android:gravity="center"></TextView>
+    </LinearLayout>
+</LinearLayout>

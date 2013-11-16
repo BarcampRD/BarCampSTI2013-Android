@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_view_background"
+    android:padding="@dimen/list_view_item_padding"
+    android:minHeight="@dimen/thumb_hsize">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/schedule_time"
+            android:text="09:00"
+            android:textSize="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="5dp"
+        android:minHeight="@dimen/thumb_hsize"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dp"
+        android:background="@color/blue_color"></View>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_label"
+            android:text="@string/hello_world"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"></TextView>
+
+        <TextView
+            android:id="@+id/short_description_label"
+            android:text="@string/hello_world"
+            android:ellipsize="end"
+            android:lines="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/schedule_label"
+            android:text="@string/hello_world"
+            android:lines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/ic_right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center">
+
+    </ImageView>
+
+</LinearLayout>

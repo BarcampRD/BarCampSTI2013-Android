@@ -1,0 +1,7 @@
+<resources>
+    <color name="list_pressed_color">#0a97f9</color>
+    <color name="list_default_color">#ffffff</color>
+    <color name="blue_color">#0a97f9</color>
+    <color name="dark_color">#333333</color>
+    <color name="light_color">#f5f5f5</color>
+</resources>
